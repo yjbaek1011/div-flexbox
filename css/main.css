@@ -102,8 +102,27 @@ html {
   width: 100%;
 }
 
+header {
+    border: 2px solid lightcoral;
+    padding: 0 10px;
+
+}
+
+header, h1 {
+    font-family: 'Merriweather', serif;
+}
+
+h3 {
+    border: 2px solid lightcoral;
+    padding: 0 10px;
+
+}
+
+h3 span {
+    font-family: 'lora', sans-serif;
+}
+
 body {
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
     padding: 2em;
     color: #fff;
@@ -120,6 +139,7 @@ body {
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
+  font-family: 'Source Sans Pro', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -128,6 +148,17 @@ body {
   font-size: 1.25em;
   width: 30%;
   height: auto;
+}
+
+.div-1 {
+    border-right: 1px solid lightgray;
+    padding: 0 10px;
+}
+
+.div-2 {
+    border-right: 1px solid lightgray;
+    padding: 0 10px;
+
 }
 
 .wrapper span {
